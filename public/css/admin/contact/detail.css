@@ -1,0 +1,52 @@
+
+.buttonDetailContact a{
+    text-decoration: none;
+    color: #fff;
+}
+.buttonDetailContact{
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-color: #1b2c3f;
+    float: right;
+    color: #fff;
+}
+
+.buttonDetailContact:hover{
+    background-color: #283e57;
+}
+.spancontantD{
+    font-size: 18p;
+    text-align: justify;
+}
+.noidung1{
+    width: 100%;
+}
+.chude1{
+    width: 200px;
+    float: left;
+}
+.noidungchude1{
+    width: auto;
+    text-align: justify;
+    text-justify: inter-word;
+  
+}
+.titleh5{
+    color: #1b2c3f;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    width: 200px;
+}
+.chude2{
+    width: 200px;
+    float: left;
+}
+.noidungchude2{
+    margin-left: 200px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+

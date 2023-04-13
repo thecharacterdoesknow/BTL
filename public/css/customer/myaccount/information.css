@@ -1,0 +1,15 @@
+.info-wrapper {
+    padding: 30px 100px;
+    box-shadow: 0 5px 4px 0 rgb(0 0 0 / 10%);
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.info-wrapper .row {
+    margin-bottom: 20px;
+}
+
+.info-wrapper .row .edit-btn {
+    border: none;
+    background-color: white;
+}

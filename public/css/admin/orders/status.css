@@ -1,0 +1,17 @@
+.status {
+    color: white;
+    padding: 5px 12px;
+    border-radius: 4px;
+}
+
+.status.delivered {
+    background-color: #198754;
+}
+
+.status.canceled {
+    background-color: #dc3545;
+}
+
+.status.processing {
+    background-color: #0d6efd;
+}

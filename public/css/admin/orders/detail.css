@@ -1,0 +1,17 @@
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.order-info {
+    margin-left: 100px;
+}
+
+.property-name {
+    display: inline-block;
+    width: 200px;
+}
+
+.btn.bg-error {
+    background-color: red;
+}

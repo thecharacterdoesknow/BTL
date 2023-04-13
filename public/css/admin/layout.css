@@ -1,0 +1,31 @@
+.app-wrapper {
+    display: flex;
+}
+
+.nav-bar-wrapper {
+    position: sticky;
+    top: 0px;
+    height: 100vh;
+    width: 250px;
+    transition: all .5s ease;
+}
+
+.nav-bar-wrapper.close {
+    width: 78px;
+}
+
+.content-wrapper {
+    width: 500px;
+    flex: 1 1;
+}
+
+.subview-wrapper {
+    min-height: 90vh;
+    padding: 15px 20px;
+}
+
+.header-wrapper {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}

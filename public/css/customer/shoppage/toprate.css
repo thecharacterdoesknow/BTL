@@ -1,0 +1,71 @@
+.toprate {
+    background-color: white;
+    box-shadow: 0 5px 4px 0 rgb(0 0 0 / 10%);
+    padding: 30px 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.toprate h3 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #222;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.toprate .top-rated-product-container .single-top-rated-product {
+    display: flex;
+}
+
+.toprate .top-rated-product-container .single-top-rated-product .image {
+    width: 80px;
+    flex-basis: 100px;
+}
+
+.toprate .top-rated-product-container .single-top-rated-product .image:hover {
+    cursor: pointer;
+}
+
+.toprate .top-rated-product-container .single-top-rated-product .image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.toprate .top-rated-product-container .single-top-rated-product .content {
+    padding-left: 10px;
+    width: 130px;
+}
+
+.toprate .top-rated-product-container .single-top-rated-product .content a {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #323232;
+    text-decoration: none;
+}
+
+.toprate .top-rated-product-container .single-top-rated-product .content p:hover {
+    cursor: pointer;
+}
+
+.toprate .top-rated-product-container .single-top-rated-product .content p:hover a {
+    color: #70b100;
+}
+
+.toprate .top-rated-product-container .single-top-rated-product .content .product-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.toprate .top-rated-product-container .single-top-rated-product .content .product-price .price {
+    color: #70b100;
+}
+
+.toprate .top-rated-product-container .single-top-rated-product .content .product-price .main-price {
+    color: #999;
+    text-decoration: line-through;
+}

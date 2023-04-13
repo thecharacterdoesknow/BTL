@@ -1,0 +1,46 @@
+.address-wrapper {
+    padding: 20px 100px;
+    box-shadow: 0 5px 4px 0 rgb(0 0 0 / 10%);
+    background-color: white;
+}
+
+.address-wrapper .title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.address-wrapper .address {
+    padding: 12px 6px;
+    border-top: 1px solid #777;
+    position: relative;
+    overflow: hidden;
+}
+
+.address-wrapper .address p {
+    margin: 0px;
+}
+
+.address-wrapper .address .action {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translate(110%, -50%);
+    transition: all 0.2s ease-in-out;
+}
+
+.address-wrapper .address:hover .action {
+    transform: translate(0%, -50%);
+}
+
+.address-wrapper .address .action button {
+    border: none;
+    background-color: white;
+}
+
+.address-wrapper .add-address #add-address-btn {
+    border: 1px dashed #777;
+    padding: 8px;
+    margin-top: 10px;
+    width: 100%;
+}

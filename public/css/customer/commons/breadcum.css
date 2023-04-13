@@ -1,0 +1,26 @@
+.breadcum {
+    border-bottom: #ddd 1px solid;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.breadcum ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+.breadcum ul li a {
+    color: #777;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.breadcum ul li:not(:last-child)::after {
+    content: ">";
+    padding: 0px 25px;
+}
+
+.breadcum ul li.active a {
+    color: #80bb01;
+}

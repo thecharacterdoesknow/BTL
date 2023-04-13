@@ -1,0 +1,22 @@
+.thumbnails-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thumbnails-wrapper img {
+    width: 250px;
+    height: 250px;
+}
+
+.thumbnails-wrapper button {
+    margin-top: 10px;
+    background-color: transparent;
+    color: #1b2c3f;
+    border: none;
+    font-weight: bold;
+}
+
+.thumbnails-wrapper input {
+    visibility: hidden;
+}

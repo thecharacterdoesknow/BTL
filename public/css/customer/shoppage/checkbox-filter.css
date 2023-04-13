@@ -1,0 +1,50 @@
+.checkbox-filter {
+    background-color: white;
+    box-shadow: 0 5px 4px 0 rgb(0 0 0 / 10%);
+    padding: 30px 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.checkbox-filter h3 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #222;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.checkbox-filter ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.checkbox-filter ul li {
+    padding-right: 25px;
+    margin-bottom: 7px;
+}
+
+.checkbox-filter ul li a {
+    color: #666;
+    text-decoration: none;
+    line-height: 27px;
+}
+
+.checkbox-filter ul li:hover a,
+.checkbox-filter ul li a.active {
+    border-color: #70b100;
+    color: #70b100;
+}
+
+.checkbox-filter ul li:hover a i,
+.checkbox-filter ul li a.active i {
+    color: #70b100;
+}
+
+.checkbox-filter ul li a i {
+    margin-right: 5px;
+    font-size: 12px;
+}

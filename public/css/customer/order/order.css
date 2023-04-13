@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.cover {
+    margin-bottom: 50px;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 15px 15px;
+}
+
+.row-title {
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+tr:first-child {
+    background-color: #636e72;
+}
+
+.link-option {
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    border: 1pt solid #00cec9;
+    background-color: #636e72;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.link-option:hover {
+    color: #70b100;
+}
+
+.status {
+    color: white;
+    padding: 5px 12px;
+    border-radius: 4px;
+}
+
+.status.delivered {
+    background-color: #198754;
+}
+
+.status.canceled {
+    background-color: #dc3545;
+}
+
+.status.processing {
+    background-color: #0d6efd;
+}

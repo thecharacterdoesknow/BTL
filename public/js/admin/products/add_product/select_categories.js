@@ -1,0 +1,1 @@
+$("#categories-sel").tokenize2();

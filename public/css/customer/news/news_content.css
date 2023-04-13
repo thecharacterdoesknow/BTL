@@ -1,0 +1,116 @@
+.news-content {
+  background-color: white;
+  box-shadow: 0 5px 4px 0 rgb(0 0 0 / 10%);
+  padding: 30px 20px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.news-content .title {
+  text-align: center;
+}
+
+.news-content .title h4 {
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.news-content .thumbnails {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.news-content .body {
+  text-indent: 40px;
+}
+
+.news-content .body .image {
+  text-align: center;
+}
+/*bai viet lien quan*/
+.relative {
+  border: 1px solid #ccc;
+  position: relative;
+  margin: 30px;
+  background-color: white;
+}
+
+.absolute {
+  border: 1px solid rgb(112, 177, 0);
+  border-radius: 0px 10px 0px 0px;
+  background-color: rgb(112, 177, 0);
+  position: absolute;
+  left: -20px;
+  top: -22px;
+  color: white;
+  text-align: center;
+  padding: 5px 15px;
+}
+
+.img {
+  border: 1px solid rgb(112, 177, 0);
+  width: 270px;
+  height: 180px;
+}
+
+.info {
+  float: right;
+  line-height: 30px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  padding: 20px;
+}
+
+.card .card-title {
+  color: rgb(48, 48, 48);
+}
+
+.card a.btn {
+  padding: 10px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  transition: all 0.4s ease;
+  color: black;
+}
+
+.card a.btn:hover {
+  color: white;
+  background-color: #70b100;
+  border-color: #70b100;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card .card-body .card-text {
+  text-align: justify;
+  line-height: 1.6em;
+  height: calc(1.6em * 3);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.card .card-body .card-title {
+  text-align: justify;
+  line-height: 1em;
+  height: calc(1em * 2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* number of lines to show */
+  -webkit-box-orient: vertical;
+}

@@ -1,0 +1,36 @@
+.successpage {
+    margin-top: 50px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.successpage span{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+.successpage form{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.successpage button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s all ease;
+    border: 1px solid white;
+    background: rgb(206, 202, 202);
+    box-shadow: 5px 5px 5px 1px #e3e3e3;
+
+    color: #333;
+}
+.successpage button:hover{
+    color: white;
+    background: #70B100;
+}

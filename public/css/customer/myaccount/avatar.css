@@ -1,0 +1,29 @@
+.avatar-wrapper {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    box-shadow: 0 5px 4px 0 rgb(0 0 0 / 10%);
+}
+
+.avatar-wrapper .avatar {
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px 0px;
+}
+
+.avatar-wrapper .avatar img {
+    width: 100%;
+}
+
+.avatar-wrapper .name {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0px;
+    margin-top: 20px;
+}
